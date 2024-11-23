@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I.\Lib\inc -I.\System -I.\USR -I.\USR\ENCODER -I.\USR\KEY -I.\USR\LED -I.\USR\MOTO -I.\USR\MPU6050 -I.\USR\MPU6050\eMPL -I.\USR\PBDATA -I.\USR\PID -I.\USR\PWM -I.\USR\TIME -I.\USR\MAIN -I.\USR\SYS -I.\USR\DEBUG -I.\USR\ADC -I.\USR\BLUETOOTH -I.\USR\VOICE -I.\USR\FLASH -I.\USR\MPU_INT -I.\USR\WATCH_DOG
+-I D:\智能平衡车\程序\平衡车裸机\RTE
+-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include
+-I C:\Keil_v5\ARM\CMSIS\Include
+-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD
+-o .\bluetooth.o --omf_browse .\bluetooth.crf --depend .\bluetooth.d --feedback ".\ROBOT.fed" "USR\BLUETOOTH\bluetooth.c"

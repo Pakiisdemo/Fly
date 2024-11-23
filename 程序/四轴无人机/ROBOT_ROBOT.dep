@@ -1,0 +1,35 @@
+Dependencies for Project 'ROBOT', Target 'ROBOT': (DO NOT MODIFY !)
+CompilerVersion: <unknown>
+F (.\ASM\startup_stm32f10x_hd.s)(0x4D783CDE)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I D:\四轴无人机\程序\四轴无人机\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 514" --pd "STM32F10X_MD SETA 1"--list .\startup_stm32f10x_hd.lst --xref -o .\startup_stm32f10x_hd.o --depend .\startup_stm32f10x_hd.d)
+F (.\USR\MAIN\main.c)(0x64CFA8AC)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I.\Lib\inc -I.\System -I.\USR -I.\USR\LED -I.\USR\MOTO -I.\USR\MPU6050 -I.\USR\MPU6050\eMPL -I.\USR\PBDATA -I.\USR\PWM -I.\USR\TIME -I.\USR\MAIN -I.\USR\SYS -I.\USR\ADC -I.\USR\BLUETOOTH -I.\USR\VOICE -I.\USR\MPU_INT -I.\USR\WATCH_DOG -I.\USR\UI -I.\USR\REMOTE-I D:\四轴无人机\程序\四轴无人机\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (.\USR\PBDATA\pbdata.h)(0x64D09649)
+I (.\System\stm32f10x.h)(0x4E2FBA58)
+I (.\System\core_cm3.h)(0x4D523B58)
+F (.\USR\LED\led.c)(0x64BF72E7)()
+F (.\USR\MOTO\moto.c)(0x64D094D0)()
+F (.\USR\MPU6050\mpu6050.c)(0x6481B2E2)()
+F (.\USR\MPU6050\mpuiic.c)(0x64BF2FDC)()
+F (.\USR\MPU6050\eMPL\inv_mpu.c)(0x64808429)()
+F (.\USR\MPU6050\eMPL\inv_mpu_dmp_motion_driver.c)(0x646B29F6)()
+F (.\USR\PBDATA\pbdata.c)(0x64CFA8E2)()
+F (.\USR\PWM\pwm.c)(0x64C353B3)()
+F (.\USR\TIME\time.c)(0x64D08D9C)()
+F (.\USR\SYS\sys.c)(0x64746171)()
+F (.\USR\ADC\adc.c)(0x64C4A0B3)()
+F (.\USR\MPU_INT\mpu_int.c)(0x648835C0)()
+F (.\USR\WATCH_DOG\watch_dog.c)(0x6482F94A)()
+F (.\USR\UI\ui.c)(0x64C08F92)()
+F (.\USR\REMOTE\remote.c)(0x64C51642)()
+F (.\Lib\SRC\stm32f10x_gpio.c)(0x50FCF82A)()
+F (.\Lib\SRC\stm32f10x_rcc.c)(0x4D783BB4)()
+F (.\Lib\SRC\misc.c)(0x4D783BB4)()
+F (.\Lib\SRC\stm32f10x_adc.c)(0x4D783BB4)()
+F (.\Lib\SRC\stm32f10x_exti.c)(0x4D783BB4)()
+F (.\Lib\SRC\stm32f10x_spi.c)(0x4D783BB4)()
+F (.\Lib\SRC\stm32f10x_tim.c)(0x4D783BB4)()
+F (.\Lib\SRC\stm32f10x_usart.c)(0x4D783BB4)()
+F (.\Lib\SRC\stm32f10x_flash.c)(0x4D783BB4)()
+F (.\Lib\SRC\stm32f10x_wwdg.c)(0x4D783BB4)()
+F (.\Lib\SRC\stm32f10x_iwdg.c)(0x4D783BB4)()
+F (.\System\core_cm3.c)(0x4C0C587E)()
+F (.\System\system_stm32f10x.c)(0x516FC418)()

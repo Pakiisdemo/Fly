@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+".\startup_stm32f10x_hd.o"
+".\main.o"
+".\pbdata.o"
+".\stm32f10x_it.o"
+".\time.o"
+".\watch_dog.o"
+".\oled.o"
+".\ui.o"
+".\io_ctrl.o"
+".\ad_sensor.o"
+".\remote.o"
+".\led.o"
+".\stm32f10x_gpio.o"
+".\stm32f10x_rcc.o"
+".\stm32f10x_adc.o"
+".\stm32f10x_tim.o"
+".\stm32f10x_exti.o"
+".\misc.o"
+".\stm32f10x_usart.o"
+".\stm32f10x_flash.o"
+".\stm32f10x_iwdg.o"
+".\core_cm3.o"
+".\system_stm32f10x.o"
+--strict --scatter ".\ROBOT.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\ROBOT.map" -o .\ROBOT.axf
